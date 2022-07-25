@@ -12,7 +12,7 @@
                   <p class="text-white-50 mb-5">
                     Por favor ingrese su nombre de usuario
                   </p>
-                  <form action="#" method="post"><div class="form-outline form-white mb-4">
+                  <form  @submit.prevent="login()"><div class="form-outline form-white mb-4">
                     <input
                       type="text"
                       id="username"
